@@ -1,0 +1,24 @@
+{
+  "name": "elm-book-interop-elm-css",
+  "version": "1.0.0",
+  "description": "Use elm-css in your elm-books",
+  "author": "Georges Boris",
+  "license": "MPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtwrks/elm-book-interop-elm-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dtwrks/elm-book-interop-elm-css/issues"
+  },
+  "scripts": {
+    "postinstall": "elm-tooling install",
+    "start": "elm-book ./example/Main.elm",
+    "start:docs": "npx elm-doc-preview"
+  },
+  "devDependencies": {
+    "elm-book": "^0.0.2",
+    "elm-doc-preview": "^5.0.5",
+    "elm-tooling": "^1.3.0"
+  }
+}
