@@ -3,7 +3,7 @@
     "name": "dtwrks/elm-book-interop-elm-css",
     "summary": "Use elm-book and elm-css together",
     "license": "MPL-2.0",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "exposed-modules": [
         "ElmBook.ElmCSS"
     ],
